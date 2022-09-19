@@ -3,6 +3,7 @@
 ### What's working and what's not?
 
 - [x] Boots, sleeps and wakes
+- [x] iGPU - Intel UHD 620 with full QE/CI
 - [x] Wi-Fi - using Itlwm (HeliPort required)
 - [x] Bluetooth
 - [x] 4G LTE modem
