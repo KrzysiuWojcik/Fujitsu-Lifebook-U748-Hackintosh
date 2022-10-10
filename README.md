@@ -14,17 +14,18 @@
 - [x] Battery time is decent
 - [x] Power management - laptop stays cool and silent
 - [x] M.2 SATA SSD
+- [x] M.2 NVMe SSD
 
 ### What's untested?
 
 - [ ] USB-C PowerDelivery - as I don't have PD charger
 - [ ] USB-C, VGA and DisplayPort video output - I will test it at some free time
 - [ ] Fingerprint Scanner - my laptop revision doesn't include FP scanner
-- [ ] M.2 NVMe SSD - should work
 
 ### Things to be done
-- [ ] Upgrade to latest OpenCore and disable Verbose boot
+- [ ] Upgrade to latest OpenCore
 
 ### Screenshots
 ![Zrzut ekranu 2022-09-19 o 12 01 01](https://user-images.githubusercontent.com/36552450/191020794-fcabceac-fdbe-4fe8-9694-10ff6d8d65ad.png)
 ![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)
+![Zrzut ekranu 2022-10-10 o 12 12 18](https://user-images.githubusercontent.com/36552450/194848000-c5770298-5ac5-4339-b175-e9f0309b6bbe.png)
