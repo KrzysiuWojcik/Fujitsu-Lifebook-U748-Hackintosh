@@ -29,3 +29,12 @@
 ![Zrzut ekranu 2022-09-19 o 12 01 01](https://user-images.githubusercontent.com/36552450/191020794-fcabceac-fdbe-4fe8-9694-10ff6d8d65ad.png)
 ![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)
 ![Zrzut ekranu 2022-10-10 o 12 12 18](https://user-images.githubusercontent.com/36552450/194848000-c5770298-5ac5-4339-b175-e9f0309b6bbe.png)
+
+### Notes
+If you want to install it alongside Windows and OpenCore doesn't display any options but boots Windows by default:
+- Boot OpenCore
+- wait for OC logs to disappear
+- on blank screen quickly press **Left** Arrow **once**, then press **Enter**
+- wait until laptop reboots
+- now OC should be displayed normally
+Windows is first boot option, pressing left arrow will jump to last option, which is "Clear NVRAM". Cleaning NVRAM fixes this issue.
