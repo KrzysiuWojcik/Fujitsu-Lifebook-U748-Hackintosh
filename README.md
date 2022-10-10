@@ -37,4 +37,5 @@ If you want to install it alongside Windows and OpenCore doesn't display any opt
 - on blank screen quickly press **Left** Arrow **once**, then press **Enter**
 - wait until laptop reboots
 - now OC should be displayed normally
+
 Windows is first boot option, pressing left arrow will jump to last option, which is "Clear NVRAM". Cleaning NVRAM fixes this issue.
