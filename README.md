@@ -1,5 +1,9 @@
 # Fujitsu Lifebook U748 Hackintosh
 
+### Last changes
+
+- 10.19.2022 - SMBIOS, Graphics and Display related changes - fixed graphical issues when playing videos in full screen (2048 MB VRAM, Intel UHD 617 ID, MacBookAir8,1 SMBIOS)
+
 ### What's working and what's not?
 
 - [x] Boots, sleeps and wakes
@@ -26,9 +30,9 @@
 - [ ] Upgrade to latest OpenCore
 
 ### Screenshots
-![Zrzut ekranu 2022-09-19 o 12 01 01](https://user-images.githubusercontent.com/36552450/191020794-fcabceac-fdbe-4fe8-9694-10ff6d8d65ad.png)
 ![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)
-![Zrzut ekranu 2022-10-10 o 12 12 18](https://user-images.githubusercontent.com/36552450/194848000-c5770298-5ac5-4339-b175-e9f0309b6bbe.png)
+![Zrzut ekranu 2022-10-19 o 18 21 15](https://user-images.githubusercontent.com/36552450/196748776-0dad07c5-89cb-4b21-b796-dd3b6b2067c2.png)
+
 
 ### Notes
 If you want to install it alongside Windows and OpenCore doesn't display any options but boots Windows by default:
