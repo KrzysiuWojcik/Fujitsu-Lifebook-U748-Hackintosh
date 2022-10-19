@@ -153,11 +153,15 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
+				<data>
+				Q3B1UG0AAAA=
+				</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>
+				U1NEVA==
+				</data>
 			</dict>
 			<dict>
 				<key>All</key>
@@ -167,11 +171,15 @@
 				<key>Enabled</key>
 				<false/>
 				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
+				<data>
+				Q3B1MElzdAA=
+				</data>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>U1NEVA==</data>
+				<data>
+				U1NEVA==
+				</data>
 			</dict>
 		</array>
 		<key>Patch</key>
@@ -179,16 +187,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change _OSI to XOSI</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Count</key>
 				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				X09TSQ==
+				</data>
 				<key>Limit</key>
 				<integer>0</integer>
-				<key>Find</key>
-				<data>X09TSQ==</data>
 				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<data>
+				WE9TSQ==
+				</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -275,72 +287,81 @@
 				<key>model</key>
 				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>IOName</key>
+				<string>pci14e4,16bc</string>
+				<key>compatible</key>
+				<string>pci14e4,16bc</string>
+				<key>device-id</key>
+				<data>
+				vBY=
+				</data>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>O2 Micro SD Card Reader</string>
+				<key>name</key>
+				<string>pci14e4,16bc</string>
+				<key>vendor-id</key>
+				<data>
+				5BQ=
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
 				<key>device_type</key>
-				<string>Apple Audio device</string>
+				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>CwAAAA==</data>
+				<data>
+				CwAAAA==
+				</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,29,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>O2 Micro SD Card Reader</string>
-				<key>vendor-id</key>
-				<data>5BQ=</data>
-				<key>device-id</key>
-				<data>vBY=</data>
-				<key>name</key>
-				<string>pci14e4,16bc</string>
-				<key>IOName</key>
-				<string>pci14e4,16bc</string>
-				<key>compatible</key>
-				<string>pci14e4,16bc</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>BQAcWQ==</data>
-				<key>complete-modeset-framebuffers</key>
-				<data>AAAAAAAAAAE=</data>
+				<data>
+				BQDAhw==
+				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>
+				AP///////wAGEHycAAAAAAAaAQSVHxFg6m+xp1VMniUM
+				UFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUA
+				Na4QAAAaAAAA/QA4TB5TEQAKICAgICAgAAAA/gBMRyBE
+				aXNwbGF5CiAgAAAA/gBMUDE0MFdGNi1TUEYxALs=
+				</data>
 				<key>device-id</key>
-				<data>FlkAAA==</data>
-				<key>#enable-backlight-smoother</key>
-				<data>AQAAAA==</data>
-				<key>enable-max-pixel-clock-override</key>
-				<data>AQAAAA==</data>
-				<key>force-online</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>CgAAAA==</data>
-				<key>framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-type</key>
-				<data>AAQAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-flags</key>
-				<data>CwfDAA==</data>
+				<data>
+				wIcAAA==
+				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>enable-lspcon-support</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 617</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
@@ -388,6 +409,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CtlnaSDXC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>Display-30e4-9c7c.kext</string>
+				<key>Comment</key>
+				<string>Display-30e4-9c7c.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -876,10 +915,14 @@
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
-			<data></data>
+			<data>
+			</data>
 			<key>Cpuid1Mask</key>
-			<data></data>
+			<data>
+			</data>
 		</dict>
+		<key>Force</key>
+		<array/>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -892,21 +935,26 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleRTC</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string>19.0.0</string>
 				<key>Replace</key>
-				<data>ww==</data>
+				<data>
+				ww==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -920,21 +968,26 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleACPIPlatform</string>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>MaxKernel</key>
 				<string>18.5.0</string>
 				<key>MinKernel</key>
 				<string>18.5.0</string>
 				<key>Replace</key>
-				<data>ww==</data>
+				<data>
+				ww==
+				</data>
 				<key>ReplaceMask</key>
-				<data></data>
+				<data>
+				</data>
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
@@ -972,8 +1025,6 @@
 			<key>XhciPortLimit</key>
 			<false/>
 		</dict>
-		<key>Force</key>
-		<array/>
 	</dict>
 	<key>Misc</key>
 	<dict>
@@ -995,6 +1046,8 @@
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Acidanthera\GoldenGate</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1003,8 +1056,6 @@
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
-			<key>PickerVariant</key>
-			<string>Acidanthera\GoldenGate</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1328,25 +1379,36 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>
+				AQ==
+				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
 				<key>rtc-blacklist</key>
-				<data></data>
+				<data>
+				</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
-				<data>Rg==</data>
+				<data>
+				Rg==
+				</data>
 				<key>boot-args</key>
 				<string></string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>
+				AAAAAA==
+				</data>
 				<key>prev-lang:kbd</key>
-				<data>ZW4tVVM6MA==</data>
+				<data>
+				ZW4tVVM6MA==
+				</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -1407,17 +1469,19 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C021445014NN9PRJA</string>
+			<string>C02940300GUKN2RA8</string>
 			<key>ROM</key>
-			<data>REwMYbwv</data>
+			<data>
+			MGNrVmMt
+			</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro16,1</string>
+			<string>MacBookAir8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02GM8Y8MD6N</string>
+			<string>C02ZH0EGJK78</string>
 			<key>SystemUUID</key>
-			<string>222EA96F-94B6-4F5C-A772-76319FA009F7</string>
+			<string>0C02B1A3-5242-4D12-9D83-E978CEF71776</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1498,6 +1562,16 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
+				<string>ext2_x64.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ext2_x64.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string>HfsPlus.efi</string>
 				<key>Enabled</key>
 				<true/>
@@ -1603,6 +1677,16 @@
 				<true/>
 				<key>Path</key>
 				<string>Ps2MouseDxe.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>ufs2_x64.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>ufs2_x64.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1706,6 +1790,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableVectorAcceleration</key>
+			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -1717,8 +1803,6 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
-			<true/>
-			<key>EnableVectorAcceleration</key>
 			<true/>
 		</dict>
 		<key>ReservedMemory</key>
