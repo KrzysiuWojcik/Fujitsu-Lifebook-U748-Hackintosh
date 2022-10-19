@@ -1,5 +1,7 @@
 # Fujitsu Lifebook U748 Hackintosh
 
+## Big Sur 11.7
+
 ### Last changes
 
 - 10.19.2022 - SMBIOS, Graphics and Display related changes - fixed graphical issues when playing videos in full screen (2048 MB VRAM, Intel UHD 617 ID, MacBookAir8,1 SMBIOS)
