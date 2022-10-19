@@ -21,11 +21,12 @@
 - [x] Power management - laptop stays cool and silent
 - [x] M.2 SATA SSD
 - [x] M.2 NVMe SSD
+- [ ] Video output not working on any port
 
 ### What's untested?
 
 - [ ] USB-C PowerDelivery - as I don't have PD charger
-- [ ] USB-C, VGA and DisplayPort video output - I will test it at some free time
+- [ ] ~USB-C, VGA and DisplayPort video output - I will test it at some free time~
 - [ ] Fingerprint Scanner - my laptop revision doesn't include FP scanner
 
 ### Things to be done
