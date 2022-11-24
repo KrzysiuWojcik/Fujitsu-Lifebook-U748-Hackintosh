@@ -35,6 +35,7 @@
 ### Screenshots
 ![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)
 ![Zrzut ekranu 2022-10-19 o 18 21 15](https://user-images.githubusercontent.com/36552450/196748776-0dad07c5-89cb-4b21-b796-dd3b6b2067c2.png)
+<img width="1440" alt="Zrzut ekranu 2022-11-24 o 02 19 38" src="https://user-images.githubusercontent.com/36552450/203677135-bc49e665-9da0-45f6-b9b1-7897b1b4ff50.png">
 
 
 ### Notes
