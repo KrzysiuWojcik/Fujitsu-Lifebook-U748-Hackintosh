@@ -38,6 +38,15 @@
 
 
 ### Notes
+To make your EM7305 LTE modem working, you need to use Linux, in this example Ubuntu.
+- Install qmicli: <code>sudo apt install -y qmicli</code>
+- Make sure your device is recognized <code>ls /dev/cdc-wdm0</code> (it can be also cdc-wdm1 etc.)
+- Get your operating modes <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-get-operating-mode</code>
+- Check which mode provides both QMI and MBIM modes and is marked as SUPPORTED (in my example mode 14 contains both mode 6 - which is QMI - and mode 9 - which is MBIM. You can also select just mode 6 if you want to use only macOS)
+- Set your operating mode (mode 14 in my example) <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-set-operating-mode=14</code>
+- reset your card and reboot to macOS
+
+
 If you want to install it alongside Windows and OpenCore doesn't display any options but boots Windows by default:
 - Boot OpenCore
 - wait for OC logs to disappear
