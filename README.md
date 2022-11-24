@@ -40,11 +40,10 @@
 ### Notes
 To make your EM7305 LTE modem working, you need to use Linux, in this example Ubuntu.
 - Install qmicli: <code>sudo apt install -y qmicli</code>
-- Make sure your device is recognized <code>ls /dev/cdc-wdm0</code> (it can be also cdc-wdm1 etc.)
-- Get your operating modes <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-get-operating-mode</code>
-- Check which mode provides both QMI and MBIM modes and is marked as SUPPORTED (in my example mode 14 contains both mode 6 - which is QMI - and mode 9 - which is MBIM. You can also select just mode 6 if you want to use only macOS)
-- Set your operating mode (mode 14 in my example) <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-set-operating-mode=14</code>
-- reset your card and reboot to macOS
+- Make sure your device is recognized: <code>ls /dev/cdc-wdm0</code> (it can be also cdc-wdm1 etc.)
+- Get your USB compositions: <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-swi-get-usb-composition</code>
+- Set your USB composition that provides both QMI and MBIM (or only QMI if you don't dual boot) and is marked as SUPPORTED (in my case it will be comp 14): <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-swi-set-usb-composition 14</code>
+- reset your card and reboot to macOS: <code>sudo qmicli --device /dev/cdc-wdm0 --dms-set-operating-mode=offline && sudo qmicli --device /dev/cdc-wdm0 --dms-set-operating-mode=reset && init 6</code>
 
 
 If you want to install it alongside Windows and OpenCore doesn't display any options but boots Windows by default:
