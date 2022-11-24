@@ -12,7 +12,7 @@
 - [x] iGPU - Intel UHD 620 with full QE/CI
 - [x] Wi-Fi - using Itlwm (HeliPort required)
 - [x] Bluetooth
-- [ ] SierraWireless EM7305 4G LTE modem (WWAN modem is detected but cannot connect)
+- [x] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and can connect to internet)
 - [x] SmartCard reader
 - [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
 - [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch)
