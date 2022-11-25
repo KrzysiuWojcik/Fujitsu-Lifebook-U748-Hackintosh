@@ -4,6 +4,9 @@
 
 ### Last changes
 
+- 11.24.2022 - Display HiDPI scaling (internal LG panel) fixed to work together with brightness control
+- 11.23.2022 - EM7305 4G LTE WWAN modem brought to live - signal icon shows on top bar and can finally connect to the Internet
+- 11.07.2022 - Upgraded OpenCore (now it has text interface and no NTFS driver because I use rEFInd as my main OS chooser)
 - 10.19.2022 - SMBIOS, Graphics and Display related changes - fixed graphical issues when playing videos in full screen (2048 MB VRAM, Intel UHD 617 ID, MacBookAir8,1 SMBIOS)
 
 ### What's working and what's not?
@@ -30,13 +33,13 @@
 - [ ] Fingerprint Scanner - my laptop revision doesn't include FP scanner
 
 ### Things to be done
-- [ ] Upgrade to latest OpenCore
+- [x] ~Upgrade to latest OpenCore~
 
 ### Screenshots
-![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)
-![Zrzut ekranu 2022-10-19 o 18 21 15](https://user-images.githubusercontent.com/36552450/196748776-0dad07c5-89cb-4b21-b796-dd3b6b2067c2.png)
-<img width="1440" alt="Zrzut ekranu 2022-11-24 o 02 19 38" src="https://user-images.githubusercontent.com/36552450/203677135-bc49e665-9da0-45f6-b9b1-7897b1b4ff50.png">
-
+![Zrzut ekranu 2022-09-19 o 12 01 57](https://user-images.githubusercontent.com/36552450/191020816-bf0100ae-9b0f-4258-a19b-c01a3ff4db84.png)<br><i>"i" services working and USB ports mapped</i><br><br>
+![Zrzut ekranu 2022-10-19 o 18 21 15](https://user-images.githubusercontent.com/36552450/196748776-0dad07c5-89cb-4b21-b796-dd3b6b2067c2.png)<br><i>Intel UHD 617</i><br><br>
+<img width="1440" alt="Zrzut ekranu 2022-11-24 o 02 19 38" src="https://user-images.githubusercontent.com/36552450/203677135-bc49e665-9da0-45f6-b9b1-7897b1b4ff50.png"><br><i>EM7305 working in QMI mode</i><br><br>
+<img width="1366" alt="Zrzut ekranu 2022-11-24 o 13 26 05" src="https://user-images.githubusercontent.com/36552450/203786636-e988638d-ecc8-4b51-b555-17c4efb4c973.png"><br><i>Display supports scaling and brightness control</i><br>
 
 ### Notes
 To make your EM7305 LTE modem working, you need to use Linux, in this example Ubuntu.
@@ -46,12 +49,3 @@ To make your EM7305 LTE modem working, you need to use Linux, in this example Ub
 - Set your USB composition that provides both QMI and MBIM (or only QMI if you don't dual boot) and is marked as SUPPORTED (in my case it will be comp 14): <code>sudo qmicli --device=/dev/cdc-wdm0 --dms-swi-set-usb-composition 14</code>
 - reset your card and reboot to macOS: <code>sudo qmicli --device /dev/cdc-wdm0 --dms-set-operating-mode=offline && sudo qmicli --device /dev/cdc-wdm0 --dms-set-operating-mode=reset && init 6</code>
 
-
-If you want to install it alongside Windows and OpenCore doesn't display any options but boots Windows by default:
-- Boot OpenCore
-- wait for OC logs to disappear
-- on blank screen quickly press **Left** Arrow **once**, then press **Enter**
-- wait until laptop reboots
-- now OC should be displayed normally
-
-Windows is first boot option, pressing left arrow will jump to last option, which is "Clear NVRAM". Cleaning NVRAM fixes this issue.
