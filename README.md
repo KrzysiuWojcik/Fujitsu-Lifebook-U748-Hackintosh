@@ -24,7 +24,7 @@
 <br><i>macOS Monterey
 - custom WWAN icons (iOS style) placed into /S*/L*/CoreServices/Menu\ Extras/WWAN.menu
 - HandOff from iPhone is working
-<br>
+</i><br>
 
 ## Big Sur 11.7
 
