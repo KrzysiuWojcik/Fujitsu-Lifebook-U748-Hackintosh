@@ -1,5 +1,32 @@
 # Fujitsu Lifebook U748 Hackintosh
 
+## Ventura 13.0.1
+
+### <code>main</code> branch is still following Monterey-related changes. Ventura support is work-in-progress.
+
+### What's working and what's not?
+
+- [x] Boots, sleeps and wakes
+- [x] iGPU - Intel UHD 620 with full QE/CI
+- [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
+- [ ] Bluetooth ?
+- [ ] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and is detecting SIM network, but System Preferences shows no settings for EM7305 so there is no "Connect" button - macOS bug? Or maybe Ventura dropped WWAN support? Idk, driver seems to work)
+- [x] SmartCard reader
+- [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
+- [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch)
+- [x] Function keys (F7 & F8 for brightness)
+- [x] Battery time is decent
+- [x] Power management - laptop stays cool and silent
+- [x] M.2 SATA SSD
+- [x] M.2 NVMe SSD
+- [ ] Video output not working on any port
+- [ ] Audio is not working although AppleALC is installed
+
+### Screenshots
+
+![Zrzut ekranu 2022-11-30 o 12 58 58](https://user-images.githubusercontent.com/36552450/204908256-7abdb75f-e943-4f4d-9ebe-51b8de7f151b.png)
+
+
 ## Monterey 12.6.1
 
 ### What's working and what's not?
@@ -17,6 +44,7 @@
 - [x] Power management - laptop stays cool and silent
 - [x] M.2 SATA SSD
 - [x] M.2 NVMe SSD
+- [x] Audio using AppleALC
 - [ ] Video output not working on any port
 
 ### Screenshots
@@ -50,6 +78,7 @@
 - [x] Power management - laptop stays cool and silent
 - [x] M.2 SATA SSD
 - [x] M.2 NVMe SSD
+- [x] Audio using AppleALC
 - [ ] Video output not working on any port
 
 ### What's untested?
