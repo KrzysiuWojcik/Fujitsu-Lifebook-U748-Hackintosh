@@ -1,5 +1,31 @@
 # Fujitsu Lifebook U748 Hackintosh
 
+## Monterey 12.6.1
+
+### What's working and what's not?
+
+- [x] Boots, sleeps and wakes
+- [x] iGPU - Intel UHD 620 with full QE/CI
+- [x] Wi-Fi - using AirportItlwm
+- [x] Bluetooth
+- [x] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and can connect to internet, using QMI.kext)
+- [x] SmartCard reader
+- [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
+- [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch)
+- [x] Function keys (F2, F3 & F4 for volume, F7 & F8 for brightness)
+- [x] Battery time is decent
+- [x] Power management - laptop stays cool and silent
+- [x] M.2 SATA SSD
+- [x] M.2 NVMe SSD
+- [ ] Video output not working on any port
+
+### Screenshots
+![Zrzut ekranu 2022-11-30 o 21 08 29](https://user-images.githubusercontent.com/36552450/204898628-bdf417e0-ea71-426e-924f-e0908857b1d5.png)
+<br><i>macOS Monterey
+- custom WWAN icons (iOS style) placed into /S*/L*/CoreServices/Menu\ Extras/WWAN.menu
+- HandOff from iPhone is working
+<br>
+
 ## Big Sur 11.7
 
 ### Last changes
@@ -13,7 +39,7 @@
 
 - [x] Boots, sleeps and wakes
 - [x] iGPU - Intel UHD 620 with full QE/CI
-- [x] Wi-Fi - using Itlwm (HeliPort required)
+- [x] Wi-Fi - using AirportItlwm
 - [x] Bluetooth
 - [x] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and can connect to internet, using QMI.kext)
 - [x] SmartCard reader
