@@ -9,18 +9,18 @@
 - [x] Boots, sleeps and wakes
 - [x] iGPU - Intel UHD 620 with full QE/CI
 - [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
-- [ ] Bluetooth ?
+- [x] Bluetooth (?)
 - [ ] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and is detecting SIM network, but System Preferences shows no settings for EM7305 so there is no "Connect" button - macOS bug? Or maybe Ventura dropped WWAN support? Idk, driver seems to work)
-- [x] SmartCard reader
+- [x] SmartCard reader (assuming, can't test)
 - [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
-- [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch)
-- [x] Function keys (F7 & F8 for brightness)
+- [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch, disable it in preferences to make left click working)
+- [x] Function keys (F2, F3 & F4 for volume, F7 & F8 for brightness)
 - [x] Battery time is decent
-- [x] Power management - laptop stays cool and silent
+- [x] Power management
 - [x] M.2 SATA SSD
-- [x] M.2 NVMe SSD
+- [x] M.2 NVMe SSD - if laptop freezes at boot process with no reason, it's NVMe bug. Install on some SATA M.2 drive, let everything configure, reboot several times and move your APFS container to NVMe disk. If you have no SATA M.2 drive, you can use 2,5" SATA drive connected trough USB.
+- [x] Audio is working with latest AppleALC installed
 - [ ] Video output not working on any port
-- [ ] Audio is not working although AppleALC is installed
 
 ### Screenshots
 
