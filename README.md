@@ -2,7 +2,7 @@
 
 ## Ventura 13.0.1
 
-### <code>main</code> branch is still following Monterey-related changes. Ventura support is work-in-progress.
+### <code>main</code> branch is still following Monterey-related changes. Ventura support is work-in-progress. You can download pre-release from Releases tab.
 
 ### What's working and what's not?
 
