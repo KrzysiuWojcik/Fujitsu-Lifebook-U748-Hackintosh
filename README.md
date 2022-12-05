@@ -20,6 +20,7 @@
 - [x] M.2 SATA SSD
 - [x] M.2 NVMe SSD - if laptop freezes at boot process with no reason, it's NVMe bug. Install on some SATA M.2 drive, let everything configure, reboot several times and move your APFS container to NVMe disk. If you have no SATA M.2 drive, you can use 2,5" SATA drive connected trough USB.
 - [x] Audio is working with latest AppleALC installed
+- [x[ Continuity Camera works over USB (that's known to happen also on real Mac's)
 - [ ] Video output not working on any port
 - [ ] HandOff is not working
 
