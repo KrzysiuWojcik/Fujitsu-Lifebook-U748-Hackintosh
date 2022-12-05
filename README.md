@@ -10,7 +10,7 @@
 - [x] iGPU - Intel UHD 620 with full QE/CI
 - [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
 - [x] Bluetooth (?)
-- [ ] SierraWireless EM7305 4G LTE modem (WWAN modem is detected and is detecting SIM network, but System Preferences shows no settings for EM7305 so there is no "Connect" button - macOS bug? Or maybe Ventura dropped WWAN support? Idk, driver seems to work)
+- [x] SierraWireless EM7305 4G LTE modem - works, but you need to manually add file "/System/Library/CoreServices/Menu Extras/WWAN.menu" to auto-start
 - [x] SmartCard reader (assuming, can't test)
 - [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
 - [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch, disable it in preferences to make left click working)
@@ -26,6 +26,8 @@
 ### Screenshots
 
 ![Zrzut ekranu 2022-11-30 o 12 58 58](https://user-images.githubusercontent.com/36552450/204908256-7abdb75f-e943-4f4d-9ebe-51b8de7f151b.png)
+![Zrzut ekranu 2022-12-5 o 20 56 02](https://user-images.githubusercontent.com/36552450/205731586-852f0c2d-e715-465d-8a27-a7b5935bed9c.png)
+
 
 
 ## Monterey 12.6.1
