@@ -1,5 +1,16 @@
 # Fujitsu Lifebook U748 Hackintosh
 
+![pol_pl_Fujitsu-LifeBook-U748-Core-i7-8550U-8-gen-1-8-GHz-8-GB-240-SSD-14-FullHD-Win-11-Prof-Update-22762_3](https://github.com/KrzysiuWojcik/Fujitsu-Lifebook-U748-Hackintosh/assets/36552450/26fe46df-1f7c-4293-b7e9-2ad960ddf2fa)
+
+
+## Sonoma Beta 14.0
+
+Boots on Ventura package, exceptions are:
+- Wi-Fi: AirportItlwm needs to be replaced with Itlwm (no AirportItlwm for Sonoma yet) - need to use HeliPort to connect with Wi-Fi.
+- iGPU: AAPL,ig-platform-id needs to be replaced from AAAWWQ== to BQAcWQ== in config.plist (line 389)
+
+Everything seems to work as it worked in earlier macOS versions, tests + screenshots are coming soon.
+
 ## Ventura 13.0.1
 
 ### <code>main</code> branch is still following Monterey-related changes. Ventura support is work-in-progress. You can download pre-release from Releases tab.
