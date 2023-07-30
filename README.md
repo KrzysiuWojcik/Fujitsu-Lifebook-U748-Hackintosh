@@ -33,7 +33,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] Audio is working with latest AppleALC installed
 - [x] Continuity Camera works over USB (that's known to happen also on real Mac's)
 - [x] HandOff is not working
-- [ ] Video output not working on any port
+- [x] Video output working on DisplayPort, other ports not tested
 
 ### Screenshots
 
