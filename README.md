@@ -20,6 +20,9 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - No Bluetooth
 ```
 
+**For creating USB installer use installer branch (download as ZIP and put files in OC folder)**
+[Installer branch](https://github.com/KrzysiuWojcik/Fujitsu-Lifebook-U748-Hackintosh/tree/installer)
+
 ### What's working and what's not?
 
 - [x] Boots, sleeps and wakes
