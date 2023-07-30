@@ -22,17 +22,17 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
 - [x] Bluetooth (?)
 - [x] SierraWireless EM7305 4G LTE modem - works, but you need to manually add file "/System/Library/CoreServices/Menu Extras/WWAN.menu" to auto-start
-- [x] SmartCard reader (assuming, can't test)
+- [x] SmartCard reader (shows up in System Info, can't test properly)
 - [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
 - [x] ELAN I<sup>2</sup>C Touchpad (buttons working as Force Touch, disable it in preferences to make left click working)
 - [x] Function keys (F2, F3 & F4 for volume, F7 & F8 for brightness)
 - [x] Battery time is decent
 - [x] Power management
 - [x] M.2 SATA SSD
-- [x] M.2 NVMe SSD - if laptop freezes at boot process with no reason, it's NVMe bug. Install on some SATA M.2 drive, let everything configure, reboot several times and move your APFS container to NVMe disk. If you have no SATA M.2 drive, you can use 2,5" SATA drive connected trough USB.
+- [x] M.2 NVMe SSD
 - [x] Audio is working with latest AppleALC installed
-- [x] Continuity Camera works over USB (that's known to happen also on real Mac's)
-- [x] HandOff is not working
+- [x] Continuity Camera works only over USB (that's known to happen also on real Macs)
+- [ ] HandOff is not working
 - [x] Video output working on DisplayPort, other ports not tested
 
 ### Screenshots
