@@ -14,7 +14,7 @@ Boots on Ventura package, exceptions are:
 
 Everything seems to work as it worked in earlier macOS versions, tests + screenshots are coming soon.
 
-## Ventura 13.5
+## Ventura 13.5 OpenCore 0.9.3
 ```diff
 + Works good
 - No Bluetooth
@@ -50,7 +50,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 
 
 
-## Monterey 12.6.1
+## Monterey 12.6.1 OpenCore 0.8.6
 ```diff
 + Works good
 ! External video output was not tested 
