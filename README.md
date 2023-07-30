@@ -4,6 +4,9 @@
 
 
 ## Sonoma Beta 14.0
+```diff
+! Work in progress !
+```
 
 Boots on Ventura package, exceptions are:
 - Wi-Fi: AirportItlwm needs to be replaced with Itlwm (no AirportItlwm for Sonoma yet) - need to use HeliPort to connect with Wi-Fi.
@@ -11,9 +14,10 @@ Boots on Ventura package, exceptions are:
 
 Everything seems to work as it worked in earlier macOS versions, tests + screenshots are coming soon.
 
-## Ventura 13.0.1
-
-### <code>main</code> branch is still following Monterey-related changes. Ventura support is work-in-progress. You can download pre-release from Releases tab.
+## Ventura 13.5
+```diff
+! Work in progress !
+```
 
 ### What's working and what's not?
 
