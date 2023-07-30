@@ -5,7 +5,7 @@
 
 ## Sonoma Beta 14.0
 ```diff
-! Work in progress !
+! Work in progress
 ```
 
 Boots on Ventura package, exceptions are:
@@ -16,7 +16,8 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 
 ## Ventura 13.5
 ```diff
-+ Only Bluetooth left to do +
++ Works good
+- No Bluetooth
 ```
 
 ### What's working and what's not?
@@ -37,7 +38,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] Audio is working with latest AppleALC installed
 - [x] Continuity Camera works only over USB (that's known to happen also on real Macs)
 - [ ] HandOff is not working (because of no bluetooth)
-- [x] Video output working on DisplayPort, other ports not tested
+- [x] External video output is working on internal DisplayPort and PortReplicator's DisplayPort, other ports not tested
 
 ### Screenshots
 
@@ -47,6 +48,10 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 
 
 ## Monterey 12.6.1
+```diff
++ Works good
+! External video output was not tested 
+```
 
 ### What's working and what's not?
 
@@ -65,7 +70,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] M.2 NVMe SSD
 - [x] Audio using AppleALC
 - [x] HandOff is working
-- [ ] Video output not working on any port
+- [ ] External video output not tested
 
 ### Screenshots
 ![Zrzut ekranu 2022-11-30 o 21 08 29](https://user-images.githubusercontent.com/36552450/204898628-bdf417e0-ea71-426e-924f-e0908857b1d5.png)
