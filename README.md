@@ -17,7 +17,6 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 ## Ventura 13.5 OpenCore 0.9.3
 ```diff
 + Works good
-- No Bluetooth
 ```
 
 **For creating USB installer use installer branch (download as ZIP and put files in OC folder)**
@@ -28,7 +27,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] Boots, sleeps and wakes
 - [x] iGPU - Intel UHD 620 with full QE/CI
 - [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
-- [ ] Bluetooth (?)
+- [x] Bluetooth - working with Low Energy accessories
 - [x] SierraWireless EM7305 4G LTE modem - works, but you need to manually add file "/System/Library/CoreServices/Menu Extras/WWAN.menu" to auto-start
 - [x] SmartCard reader (shows up in System Info, can't test properly)
 - [x] O2Micro SDXC card reader (1217: 8621 faked to 14e4: 16bc + CtlnaSDXC.kext)
@@ -40,8 +39,8 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 - [x] M.2 NVMe SSD
 - [x] Audio is working with latest AppleALC installed
 - [x] Continuity Camera works only over USB (that's known to happen also on real Macs)
-- [ ] HandOff is not working (because of no bluetooth)
-- [x] External video output is working on internal DisplayPort and PortReplicator's DisplayPort, other ports not tested
+- [ ] HandOff not tested
+- [x] External video output is working on one of PortReplicator's DisplayPorts on current SMBIOS (Changing SMBIOS to MacBookPro14,1 makes laptop's internal DisplayPort working, one of PR's DisplayPorts is ocassionally working but with purple tint - but audio device is not detected). VGA monitor is properly detected with proper EDID infos, but gives no signal.
 
 ### Screenshots
 
