@@ -44,6 +44,9 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 
 ### Screenshots
 
+<img width="1440" alt="Screenshot 2023-08-11 at 02 28 09" src="https://github.com/KrzysiuWojcik/Fujitsu-Lifebook-U748-Hackintosh/assets/36552450/50c9370f-d9c0-49ca-aa17-9a673d9e8ed1">
+
+
 ![Zrzut ekranu 2022-11-30 o 12 58 58](https://user-images.githubusercontent.com/36552450/204908256-7abdb75f-e943-4f4d-9ebe-51b8de7f151b.png)
 ![Zrzut ekranu 2022-12-5 o 20 56 02](https://user-images.githubusercontent.com/36552450/205731586-852f0c2d-e715-465d-8a27-a7b5935bed9c.png)
 
