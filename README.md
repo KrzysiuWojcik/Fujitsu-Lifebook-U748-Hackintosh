@@ -26,7 +26,7 @@ Everything seems to work as it worked in earlier macOS versions, tests + screens
 
 - [x] Boots, sleeps and wakes
 - [x] iGPU - Intel UHD 620 with full QE/CI
-- [x] Wi-Fi - using latest AirportItlwm Pre-Release (itlwm works but makes boot process much longer)
+- [x] Wi-Fi - using latest AirportItlwm
 - [x] Bluetooth - working with Low Energy accessories
 - [x] SierraWireless EM7305 4G LTE modem - works, but you need to manually add file "/System/Library/CoreServices/Menu Extras/WWAN.menu" to auto-start
 - [x] SmartCard reader (shows up in System Info, can't test properly)
